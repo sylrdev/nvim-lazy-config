@@ -4,6 +4,7 @@ return {
 		formatters_by_ft = {
 			lua = { "stylua" },
 			luau = { "stylua" },
+			json = { "prettierd" },
 		},
 		default_format_opts = {
 			lsp_format = "fallback",

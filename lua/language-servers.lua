@@ -66,6 +66,29 @@ vim.lsp.config("luau-lsp", {
 	},
 })
 
+-- json
+local function get_json_schemas()
+	local schemas = require("schemastore").json.schemas()
+
+	-- Add the rojo json schema for rojo project files
+	table.insert(schemas, {
+		fileMatch = { "*.project.json" },
+		url = "https://raw.githubusercontent.com/rojo-rbx/vscode-rojo/master/schemas/project.template.schema.json",
+	})
+
+	return schemas
+end
+
+vim.lsp.config("jsonls", {
+	settings = {
+		json = {
+			schemas = get_json_schemas(),
+			validate = { enable = true },
+		},
+	},
+})
+
 vim.lsp.enable {
 	"lua_ls",
+	"jsonls",
 }
