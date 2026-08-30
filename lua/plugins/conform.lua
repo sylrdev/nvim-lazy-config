@@ -6,6 +6,7 @@ return {
 			luau = { "stylua" },
 			json = { "prettierd" },
 			toml = { "taplo" },
+			python = { "ruff_format" },
 		},
 		default_format_opts = {
 			lsp_format = "fallback",

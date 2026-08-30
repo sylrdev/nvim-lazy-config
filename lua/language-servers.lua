@@ -92,4 +92,5 @@ vim.lsp.enable {
 	"lua_ls",
 	"jsonls",
 	"taplo",
+	"basedpyright",
 }
