@@ -11,6 +11,7 @@
 - lua-language-server
 - luau-lsp
 - vscode-json-languageserver
+- taplo
 
 ### Formatters
 - stylua
