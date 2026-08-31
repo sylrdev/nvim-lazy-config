@@ -3,7 +3,9 @@ local function getProjectType()
 		return name:match(".+%.project%.json$")
 	end)
 
-	if rojoProject == true then
+	print(rojoProject)
+
+	if rojoProject ~= nil then
 		return "roblox"
 	else
 		return "standard"
