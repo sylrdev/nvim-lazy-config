@@ -50,6 +50,11 @@ vim.lsp.config("luau-lsp", {
 						enabled = true,
 					},
 					useConst = false,
+					ignoreGlobs = {
+						"**/_Index/**",
+						"**/.pesde/**",
+						"**/.ember/**",
+					},
 				},
 				showDeprecatedItems = false,
 				addParentheses = false,
