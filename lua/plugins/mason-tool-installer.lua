@@ -9,6 +9,7 @@ return {
 			"stylua",
 
 			-- linter
+			"selene",
 		},
 	},
 
