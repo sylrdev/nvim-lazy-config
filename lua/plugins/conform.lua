@@ -4,6 +4,8 @@ return {
 		formatters_by_ft = {
 			lua = { "stylua" },
 			luau = { "stylua" },
+			json = { "prettierd" },
+			toml = { "taplo" },
 		},
 		default_format_opts = {
 			lsp_format = "fallback",

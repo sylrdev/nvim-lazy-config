@@ -9,3 +9,4 @@
 - gzip
 - tar
 - tree-sitter-cli
+- nodejs

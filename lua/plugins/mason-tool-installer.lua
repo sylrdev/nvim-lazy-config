@@ -5,9 +5,12 @@ return {
 			-- lsp
 			"lua-language-server",
 			"luau-lsp",
+			"json-lsp",
+			"taplo",
 
 			-- formatter
 			"stylua",
+			"prettierd",
 
 			-- linter
 			"selene",

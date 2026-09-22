@@ -6,6 +6,8 @@ return {
 		local languages = {
 			"lua",
 			"luau",
+			"json",
+			"toml",
 		}
 
 		require("nvim-treesitter").setup()
