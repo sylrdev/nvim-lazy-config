@@ -8,3 +8,4 @@
 - curl
 - gzip
 - tar
+- tree-sitter-cli
