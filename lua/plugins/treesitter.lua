@@ -5,6 +5,7 @@ return {
 	config = function()
 		local languages = {
 			"lua",
+			"luau",
 		}
 
 		require("nvim-treesitter").setup()

@@ -4,6 +4,7 @@ return {
 		ensure_installed = {
 			-- lsp
 			"lua-language-server",
+			"luau-lsp",
 
 			-- formatter
 			"stylua",

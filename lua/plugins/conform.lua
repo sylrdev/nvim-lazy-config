@@ -3,6 +3,7 @@ return {
 	opts = {
 		formatters_by_ft = {
 			lua = { "stylua" },
+			luau = { "stylua" },
 		},
 		default_format_opts = {
 			lsp_format = "fallback",
