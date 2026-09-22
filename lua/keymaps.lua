@@ -12,3 +12,9 @@ setKeymap("n", "<leader>tc", cmd.tabnew)
 setKeymap("n", "<leader>tq", cmd.tabclose)
 setKeymap("n", "<leader>tn", cmd.tabnext)
 setKeymap("n", "<leader>tp", cmd.tabprevious)
+setKeymap("n", "<leader>]d", function()
+	vim.diagnostic.jump { count = 1 }
+end)
+setKeymap("n", "<leader>]d", function()
+	vim.diagnostic.jump { count = -1 }
+end)
