@@ -3,9 +3,10 @@ return {
 	opts = {
 		ensure_installed = {
 			-- lsp
-			"lua-language-server"
+			"lua-language-server",
 
 			-- formatter
+			"stylua",
 
 			-- linter
 		},

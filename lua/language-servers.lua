@@ -94,5 +94,5 @@ vim.lsp.config("jsonls", {
 })
 
 vim.lsp.enable {
-	"lua_ls"
+	"lua_ls",
 }
